@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#header {
+    background-position: center;
+    padding: 0%;
+    width: 96%;
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+}
+
+#header-row {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    padding: 3%;
+    text-align: center;
+}
+
+#website-name {
+    font-size: 300%;
+    font-weight: 500;
+    color: #555;
+    text-decoration: none;
+}
+
+#website-name:hover {
+    font-size: 300%;
+    font-weight: 500;
+    color: #555;
+    text-decoration: none;
+}
+
+
+#banner{
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5%;
+    padding-left: 2%;
+    text-align: left;
+}
+
+#banner h2 {
+    font-size: 200%;
+    font-weight: lighter;
+    color: #321;
+}
+
+.container {
+    padding: 10%;
+}
+
+.container h1 {
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.container p {
+    font-size: 130%;
+    text-align: justify;
+}
+
+.container ol li {
+    font-size: 130%;
+}
+
+#plan-intro {
+    text-align: center;
+}
+
+#sapling-image, #plant-image, #tree-image {
+    width: 70%;
+}
+
+.get-started-button:hover {
+    width: 70%;
+    padding: 1%;
+    border: 3px solid #00aa00;
+    background-color: white;
+    color: #00aa00;
+    font-weight: bold;
+}
+
+.get-started-button {
+    width: 70%;
+    padding: 1.5%;
+    border: 1.5px solid #00aa00;
+    color: white;
+    background-color: #00aa00;
+    font-weight: bold;
+}
+
+#mailchimp {
+    text-align: justify;
+}
+
+#mailchimp-form{
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+#footer {
+    background-color: #ccc;
+    padding: 1%;
+    margin: auto;
+    text-align: center;
+}
+
+#footer-details {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+
+#social-media-icons {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    width: 150px;
+}
+
+.label {
+    text-align: left;
+}
+
+.value input {
+    width: 60%;
+}
+
+textarea {
+    width: 60%;
+}
+
+#submit-button {
+    margin: auto;
+    padding: 1%;
+    width: 70%;
+    padding: 1.5%;
+    border: 1.5px solid #00aa00;
+    color: white;
+    background-color: #00aa00;
+    font-weight: bold;
+}
+
+#submit-button:hover {
+    width: 70%;
+    padding: 1.3%;
+    border: 3px solid #00aa00;
+    background-color: white;
+    color: #00aa00;
+    font-weight: bold;
+}
+
+#transaction_id {
+    color: blue;
+}
+
+#carousel {
+    margin: auto;
+    text-emphasis: center;
+    width: 35%;
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: 800px) {
+    * {
+        width: 100%;
+        padding:0;
+    }
+
+    .value input, textarea {
+        width: 120%;
+    }
+
+    #carousel {
+        margin: auto;
+        text-emphasis: center;
+        width: 90%;
+    }
+  }
